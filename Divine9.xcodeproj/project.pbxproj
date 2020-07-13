@@ -16,6 +16,10 @@
 		7C61A76B248F474200D8EB73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C61A769248F474200D8EB73 /* LaunchScreen.storyboard */; };
 		7C61A776248F474200D8EB73 /* Divine9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C61A775248F474200D8EB73 /* Divine9Tests.swift */; };
 		7C61A781248F474200D8EB73 /* Divine9UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C61A780248F474200D8EB73 /* Divine9UITests.swift */; };
+		7C7FD0A22496CC980082B185 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7FD0A12496CC980082B185 /* Content.swift */; };
+		E6835E78BFCC2FB393DEA947 /* libPods-Divine9Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF1BB8F7B122235606E9FE9 /* libPods-Divine9Tests.a */; };
+		F392CDD1B7D2A1BA08F43B29 /* libPods-Divine9-Divine9UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB20520BA6EAF888889E4D3 /* libPods-Divine9-Divine9UITests.a */; };
+		F73A93616C5246645297EDB9 /* libPods-Divine9.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A1DA3FFA23E959A527D8A7 /* libPods-Divine9.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CD778C2F5966262ED45878E /* Pods-Divine9Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Divine9Tests.release.xcconfig"; path = "Target Support Files/Pods-Divine9Tests/Pods-Divine9Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2B38A70314646BCFD58AAB55 /* Pods-Divine9-Divine9UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Divine9-Divine9UITests.release.xcconfig"; path = "Target Support Files/Pods-Divine9-Divine9UITests/Pods-Divine9-Divine9UITests.release.xcconfig"; sourceTree = "<group>"; };
+		543BC8794BDD05EE7DD54693 /* Pods-Divine9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Divine9.debug.xcconfig"; path = "Target Support Files/Pods-Divine9/Pods-Divine9.debug.xcconfig"; sourceTree = "<group>"; };
+		6EB20520BA6EAF888889E4D3 /* libPods-Divine9-Divine9UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Divine9-Divine9UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C61A758248F473C00D8EB73 /* Divine9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Divine9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C61A75B248F473C00D8EB73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C61A75D248F473C00D8EB73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,12 @@
 		7C61A77C248F474200D8EB73 /* Divine9UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Divine9UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C61A780248F474200D8EB73 /* Divine9UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divine9UITests.swift; sourceTree = "<group>"; };
 		7C61A782248F474200D8EB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C7FD0A12496CC980082B185 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		85A1DA3FFA23E959A527D8A7 /* libPods-Divine9.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Divine9.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9AD942937902990D2839DE /* Pods-Divine9Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Divine9Tests.debug.xcconfig"; path = "Target Support Files/Pods-Divine9Tests/Pods-Divine9Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B01DD5920CED95CB2967132A /* Pods-Divine9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Divine9.release.xcconfig"; path = "Target Support Files/Pods-Divine9/Pods-Divine9.release.xcconfig"; sourceTree = "<group>"; };
+		BBDA4A7F8AED6CAE62ED816B /* Pods-Divine9-Divine9UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Divine9-Divine9UITests.debug.xcconfig"; path = "Target Support Files/Pods-Divine9-Divine9UITests/Pods-Divine9-Divine9UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDF1BB8F7B122235606E9FE9 /* libPods-Divine9Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Divine9Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F73A93616C5246645297EDB9 /* libPods-Divine9.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6835E78BFCC2FB393DEA947 /* libPods-Divine9Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F392CDD1B7D2A1BA08F43B29 /* libPods-Divine9-Divine9UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		454ECD84DF4EECCD3802BC88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				543BC8794BDD05EE7DD54693 /* Pods-Divine9.debug.xcconfig */,
+				B01DD5920CED95CB2967132A /* Pods-Divine9.release.xcconfig */,
+				BBDA4A7F8AED6CAE62ED816B /* Pods-Divine9-Divine9UITests.debug.xcconfig */,
+				2B38A70314646BCFD58AAB55 /* Pods-Divine9-Divine9UITests.release.xcconfig */,
+				AD9AD942937902990D2839DE /* Pods-Divine9Tests.debug.xcconfig */,
+				0CD778C2F5966262ED45878E /* Pods-Divine9Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7C61A74F248F473C00D8EB73 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +115,8 @@
 				7C61A774248F474200D8EB73 /* Divine9Tests */,
 				7C61A77F248F474200D8EB73 /* Divine9UITests */,
 				7C61A759248F473C00D8EB73 /* Products */,
+				454ECD84DF4EECCD3802BC88 /* Pods */,
+				F034062DFF3F78A246626FF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +136,7 @@
 				7C61A75B248F473C00D8EB73 /* AppDelegate.swift */,
 				7C61A75D248F473C00D8EB73 /* SceneDelegate.swift */,
 				7C61A75F248F473C00D8EB73 /* ViewController.swift */,
+				7C7FD0A12496CC980082B185 /* Content.swift */,
 				7C61A761248F473C00D8EB73 /* Main.storyboard */,
 				7C61A767248F474200D8EB73 /* Assets.xcassets */,
 				7C61A769248F474200D8EB73 /* LaunchScreen.storyboard */,
@@ -131,6 +164,16 @@
 			path = Divine9UITests;
 			sourceTree = "<group>";
 		};
+		F034062DFF3F78A246626FF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85A1DA3FFA23E959A527D8A7 /* libPods-Divine9.a */,
+				6EB20520BA6EAF888889E4D3 /* libPods-Divine9-Divine9UITests.a */,
+				CDF1BB8F7B122235606E9FE9 /* libPods-Divine9Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C61A785248F474200D8EB73 /* Build configuration list for PBXNativeTarget "Divine9" */;
 			buildPhases = (
+				01547BB8CD887EBB4F2F66C7 /* [CP] Check Pods Manifest.lock */,
 				7C61A754248F473C00D8EB73 /* Sources */,
 				7C61A755248F473C00D8EB73 /* Frameworks */,
 				7C61A756248F473C00D8EB73 /* Resources */,
@@ -155,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C61A788248F474200D8EB73 /* Build configuration list for PBXNativeTarget "Divine9Tests" */;
 			buildPhases = (
+				A68B3B7CEC1189A23AD37F26 /* [CP] Check Pods Manifest.lock */,
 				7C61A76D248F474200D8EB73 /* Sources */,
 				7C61A76E248F474200D8EB73 /* Frameworks */,
 				7C61A76F248F474200D8EB73 /* Resources */,
@@ -173,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C61A78B248F474200D8EB73 /* Build configuration list for PBXNativeTarget "Divine9UITests" */;
 			buildPhases = (
+				ED2EB9AAAAA1E2A1B1C8D873 /* [CP] Check Pods Manifest.lock */,
 				7C61A778248F474200D8EB73 /* Sources */,
 				7C61A779248F474200D8EB73 /* Frameworks */,
 				7C61A77A248F474200D8EB73 /* Resources */,
@@ -257,11 +303,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01547BB8CD887EBB4F2F66C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Divine9-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A68B3B7CEC1189A23AD37F26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Divine9Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED2EB9AAAAA1E2A1B1C8D873 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Divine9-Divine9UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7C61A754248F473C00D8EB73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C7FD0A22496CC980082B185 /* Content.swift in Sources */,
 				7C61A766248F473C00D8EB73 /* Divine9.xcdatamodeld in Sources */,
 				7C61A760248F473C00D8EB73 /* ViewController.swift in Sources */,
 				7C61A75C248F473C00D8EB73 /* AppDelegate.swift in Sources */,
@@ -436,9 +552,11 @@
 		};
 		7C61A786248F474200D8EB73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 543BC8794BDD05EE7DD54693 /* Pods-Divine9.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W32Q6748QC;
 				INFOPLIST_FILE = Divine9/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,9 +571,11 @@
 		};
 		7C61A787248F474200D8EB73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01DD5920CED95CB2967132A /* Pods-Divine9.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W32Q6748QC;
 				INFOPLIST_FILE = Divine9/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -470,6 +590,7 @@
 		};
 		7C61A789248F474200D8EB73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD9AD942937902990D2839DE /* Pods-Divine9Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +612,7 @@
 		};
 		7C61A78A248F474200D8EB73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD778C2F5966262ED45878E /* Pods-Divine9Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +634,7 @@
 		};
 		7C61A78C248F474200D8EB73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBDA4A7F8AED6CAE62ED816B /* Pods-Divine9-Divine9UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +654,7 @@
 		};
 		7C61A78D248F474200D8EB73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B38A70314646BCFD58AAB55 /* Pods-Divine9-Divine9UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
